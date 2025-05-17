@@ -1,0 +1,14 @@
+
+footer{
+    width: 100%;
+    height: 3vh;
+     position: fixed;
+     bottom: 0;
+}
+
+footer p {
+    /* quando usa flex direction as ordens se invertem, no justify content (x) e align items no eixo y */
+    text-align: center;
+   
+}
+

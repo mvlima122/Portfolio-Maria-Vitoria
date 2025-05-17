@@ -1,0 +1,38 @@
+/* o root muda todas as cores ou que tem nele por uma var */
+:root{
+    --cor-principal: #040622;
+    --cor-secundaria: #e3d45f;
+    --cor-generica: #ffffff;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Para todas as tag, estas sofreram um tipo de ação */
+* {
+    margin: 0;
+    padding: 0;
+    /* É como se fosse um auto-ajuste da borda, para não alterar o tamanho da caixa, comprime tudo que tem dentro */
+    box-sizing: border-box;
+    color: var(--cor-generica);
+}
+
+body {
+    background-color: var(--cor-principal);
+    font-family: Poppins; 
+}
+
+a{
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* ctrl + f ou h */
+
+
+
+
